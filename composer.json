@@ -1,0 +1,19 @@
+{
+    "name": "daphnenerilus/php_mvc",
+    "description": "mini framework MVC en PHP",
+    "type": "projet",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Daphnenerilus\\PhpMvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daphne"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+   
+}

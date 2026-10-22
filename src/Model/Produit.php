@@ -1,5 +1,5 @@
 <?php
-
+namespace App\Model;
 class Produit
 {
     public string $nom;

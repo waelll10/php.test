@@ -14,6 +14,8 @@
         }
     ],
     "minimum-stability": "beta",
-    "require": {}
+    "require": {
+        "bramus/router": "^1.6"
+    }
    
 }

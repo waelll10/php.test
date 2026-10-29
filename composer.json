@@ -1,21 +1,25 @@
+
 {
     "name": "daphnenerilus/php_mvc",
-    "description": "mini framework MVC en PHP",
-    "type": "projet",
+    "description": "This is a small project that illustrate the benifets of using mvc in a php project that is composed by severall concepts like:controller, vue, model",
+    "type": "project",
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "Daphnenerilus\\PhpMvc\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Daphne"
+            "name": "daphne"
+            
         }
     ],
     "minimum-stability": "beta",
+    "require-dev": {
+        "phpunit/phpunit": "^13.4"
+    },
     "require": {
         "bramus/router": "^1.6"
     }
-   
 }

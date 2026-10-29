@@ -4,9 +4,10 @@ $chemin= str_replace('public','',__DIR__);
 
 require $chemin . '/vendor/autoload.php';
 $router = new \Bramus\Router\Router();
-$router->get('/', function () {
+/* $router->get('/', function () { 
  echo 'Accueil';
-});
+}); */
+$router->get('/','App\Controller\ProduitController@index');
 $router->get('/status', function () {
 echo "wael jabri";
 });
